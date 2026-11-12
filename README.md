@@ -16,6 +16,25 @@ Machine Learning وتحليل خصائص الرابط.
 - Dataset: بيانات روابط شرعية وروابط تصيد
 - Model: Logistic-style text classification باستخدام خصائص نص الرابط
 
+## 📊 Model Performance
+
+### Training Results
+
+- **Training Samples:** 272,000
+- **Testing Samples:** 68,000
+
+### Model Evaluation Results
+
+| Metric | Score |
+|--------|-------|
+| Accuracy | 95.03% |
+| Precision | 94.34% |
+| Recall | 95.81% |
+| F1-Score | 95.07% |
+
+---
+
+
 ## هيكل المشروع
 
 AI-Phishing-Detector/
