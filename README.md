@@ -1,20 +1,26 @@
 # AI Phishing Detector
 
-## وصف المشروع
-مشروع لاكتشاف الروابط التي قد تحتوي على مؤشرات تصيد احتيالي باستخدام
-Machine Learning وتحليل خصائص الرابط.
+## 📌 Project Description
 
-## فكرة المشروع
-يقوم المستخدم بإدخال رابط URL، ثم يتم إرسال الرابط إلى Flask Backend.
-بعد ذلك يقوم نموذج Machine Learning بتحليل الرابط وإعطاء درجة خطر ونتيجة.
+An AI-powered project designed to detect potentially malicious URLs and identify phishing indicators using Machine Learning and URL feature analysis.
 
-## مكونات المشروع
+---
 
-- Frontend: HTML + CSS + JavaScript
-- Backend: Python + Flask
-- Machine Learning: Scikit-learn
-- Dataset: بيانات روابط شرعية وروابط تصيد
-- Model: Logistic-style text classification باستخدام خصائص نص الرابط
+## 💡 How It Works
+
+The user enters a URL, which is sent to the Flask backend. A Machine Learning model then analyzes the URL and provides a risk assessment based on its characteristics.
+
+---
+
+## 🛠️ Technologies Used
+
+- **Frontend:** HTML + CSS + JavaScript
+- **Backend:** Python + Flask
+- **Machine Learning:** Scikit-learn
+- **Dataset:** Legitimate and phishing URLs
+- **Model:** Logistic Regression-based text classification using URL features
+
+---
 
 ## 📊 Model Performance
 
@@ -34,9 +40,9 @@ Machine Learning وتحليل خصائص الرابط.
 
 ---
 
+## 📁 Project Structure
 
-## هيكل المشروع
-
+```text
 AI-Phishing-Detector/
 │
 ├── backend/
@@ -54,10 +60,3 @@ AI-Phishing-Detector/
 │
 ├── requirements.txt
 └── README.md
-
-## طريقة التشغيل
-
-### 1. تثبيت المكتبات
-
-```bash
-pip install -r requirements.txt
